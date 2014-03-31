@@ -14,8 +14,8 @@ set -o nounset  # Exit if an uninitialized variable is used.
 version=2.0
 
 # Tell'em who we are.
-user_agent="openwifimap-update.sh/$version"
-home="https://github.com/gitmo/freifunk/blob/master/openwifimap-update.sh"
+user_agent="openwifimap.sh/$version"
+home="https://github.com/gitmo/openwifimap.sh"
 
 # Set additional information in this file (start with a comma).
 extra_fields="/etc/openwifimap_extra.json"
